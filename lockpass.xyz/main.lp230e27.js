@@ -1434,9 +1434,13 @@ function random(seed) {
                   <a href="mailto:suporte@lockpass.xyz?subject=FeedBack%20LockPass&body=Conte-nos%20sua%20experi%C3%AAncia%20jogando%20LockPass%0D%0AEscreva%20aqui%3A" title="suporte@lockpass.xyz">Email</a>
                   </div>      
                 </div>
-                <div class="text">
-                  <center><p>LockPass é baseado no <a href="https://www.powerlanguage.co.uk/wordle" title="@powerlanguish">Wordle</a>.</p></center>
+                <div class="setting">
+                  <div class="text">
+                    <div class="title">LockPass é baseado no <a href="https://www.nytimes.com/games/wordle" title="NYT Wordle">Wordle</a>.</div>
                   </div>
+                  </div>      
+                </div>
+                <div class="description"><center>Criado em 18/03/2022</center></div>
               </section>
             </div>
             </div>
@@ -1444,11 +1448,10 @@ function random(seed) {
             <div id="copyright">Autor: <a href="https://www.pedros.cf" title="www.pedros.cf">Pedro Henrique</a></div>
             <div id="copyright">Designer: <a href="https://www.instagram.com/llele.kkkj" title="@llele.kkkj">Eleonora</a></div>
               <div>
-                <p>Criado em 18/03/2022</p>
                 <div id="puzzle-number"></div>
                 <div id="hash"></div>
               </div>
-            </div>`;
+            </section`;
         var _a = (function (e) {
             r(t, e);
             var a = h(t);
