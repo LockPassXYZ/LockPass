@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2476428187308228"
+    crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <meta name="keywords" content="lockpass, lock pass, lockpass jogo, lockpass game, lock pass jogo, lock pass game, LOCKPASS, LOCK PASS">
+	  <meta name="author" content="Pedro Henrique">
+    <title>LockPass - Um jogo diario de números</title>
+    <meta name="application-name" content="LockPass - Um jogo diario de números" />
+    <meta name="apple-mobile-web-app-title" content="LockPass - Um jogo diario de números" />
+    <meta name="description" content="Descubra o código em 6 tentativas. Um novo código está disponível todos os dias!">
+
+    <!-- FB Meta Tags -->
+    <meta property="og:site_name" content="LockPass - Um jogo diario de números">
+    <meta property="og:url" content="https://www.lockpass.xyz">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LockPass - Um jogo diario de números">
+    <meta property="og:description" content="Descubra o código em 6 tentativas. Um novo código está disponível todos os dias!">
+    <meta property="og:image" content="https://i.ibb.co/1Qf5zRg/Lock-Pass-Icon.jpg">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="LockPass">
+    <meta property="twitter:domain" content="lockpass.xyz">
+
+    <meta name="theme-color" content="#791579" />
+    <link rel="manifest" href="lockpass.xyz/manifest.json" />
+    <link href="lockpass.xyz/img/LockPassIcon.png" rel="icon shortcut" sizes="192192" />
+    <link href="lockpass.xyz/img/LockPassIcon.png" rel="apple-touch-icon" />
+
+    <!-- WebCounter -->
+    <div id="sfcx86rhd2g3m3udap87p8pft1zkaa5zjmt"></div><script type="text/javascript" src="https://counter9.stat.ovh/private/counter.js?c=x86rhd2g3m3udap87p8pft1zkaa5zjmt&down=async&FCS_type=176" async></script><a href="https://www.webcontadores.com"></a><noscript><img src="https://counter9.stat.ovh/private/webcontadores.php?c=x86rhd2g3m3udap87p8pft1zkaa5zjmt" border="0"></a></noscript>
+
+    <!-- Google Bots -->
+    <meta name="robots" content="index, follow">
+	  <meta name="googlebot" content="all">
+    <link rel="canonical" href="https://www.lockpass.xyz">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q882DXP8VQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+    gtag('config', 'G-Q882DXP8VQ');
+    </script>
+
+    <style>
+      
+      @font-face {
+        font-family: 'lock-pass';
+        src: url('lockpass.xyz/fonts/lockpass.woff2') format('woff2'),
+          url('lockpass.xyz/fonts/lockpass.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      /* Global Styles & Colors */
+      :root {
+        --green: #7ed376;
+        --darkendGreen: #538d4e;
+        --yellow: #ffd931;
+        --darkendYellow: #d8bb3a;
+        --lightGray: #d8d8d8;
+        --gray: #86888a;
+        --darkGray: #939598;
+        --white: #fff;
+        --black: #212121;
+        /* Colorblind colors */
+        --orange: #f5793a;
+        --blue: #85c0f9;
+        font-family: 'lock-pass';
+        font-size: 16px;
+        --header-height: 50px;
+        --keyboard-height: 200px;
+        --game-max-width: 500px;
+      }
+      /* Light theme colors */
+      :root {
+        /*Cor do Switch*/--switch: #c00fc0;
+        /*Cor Letra Teclado*/--color-tone-1: #c00fc0;
+        /*Cor Incorreta*/--color-tone-2: #ebeff0;
+        /*Cor dos Botões Claro*/--color-tone-3: #c00fc0;
+        /*Cor do Teclado Claro*/--color-tone-4: #b7b8bb;
+        /*Cor da Borda*/--color-tone-6: #c00fc0;
+        /*Cor do Fundo*/--color-tone-7: #ffffff;
+        /*Cor do Numéro digitado*/--color-tone-8: #c00fc0;
+        /*Cor do Titulo*/--color-tone-9: #c00fc0;
+        /*Cor dos Números Digitados*/--color-tone-10: #c00fc0;
+        /*Cor das Letras*/--color-tone-11: #1a1a1b;
+        /*Cor Letras Pequenas*/--color-tone-12: #791579;
+        /*Cor Instruções*/--color-tone-13: #1a1a1b;
+        /*Apagar Número*/--color-tone-14: #c00fc0;
+        /*Botões Config*/--color-tone-15: #1a1a1b;
+        /*Compartilhar*/--color-tone-16: #1a1a1b;
+        /*FootNote*/--color-tone-17: #c00fc0;
+        /*Bloco do número*/--color-tone-18: #c00fc0;
+        --opacity-50: rgba(255, 255, 255, 0.5);
+      }
+      /* Dark Theme Colors */
+      .nightmode {
+        /*Cor do Switch*/--switch: #860A84;
+        /*Cor Letra Teclado*/--color-tone-1: #edeff1;
+        /*Cor Incorreta*/--color-tone-2: #1c1d53;
+        /*Cor dos Botões Escuro*/--color-tone-3: #860A84;
+        /*Cor do Teclado Escuro*/--color-tone-4: #860A84;
+        /*Cor da Borda*/--color-tone-6: #860A84;
+        /*Cor do Fundo*/--color-tone-7: #181A4A;
+        /*Cor do Numéro digitado*/--color-tone-8: #860A84;
+        /*Cor do Titulo*/--color-tone-9: #860A84;
+        /*Cor dos Números Digitados*/--color-tone-10: #d7dadc;
+        /*Cor das Letras*/--color-tone-11: #ffffff;
+        /*Cor Letras Pequenas*/--color-tone-12: #860A84;
+        /*Cor Instruções*/--color-tone-13: #ffffff;
+        /*Apagar Número*/--color-tone-14: #edeff1;
+        /*Botões Config*/--color-tone-15: #ffffff;
+        /*Compartilhar*/--color-tone-16: #ffffff;
+        /*FootNote*/--color-tone-17: #860A84;
+        /*Bloco do número*/--color-tone-18: #ffffff;
+        --opacity-50: rgba(0, 0, 0, 0.5);
+      }
+      /* Constant colors and colors derived from theme */
+      :root,
+      .nightmode {
+        --color-background: var(--color-tone-7);
+      }
+      :root {
+        --color-present: var(--yellow);
+        --color-switch: var(--switch);
+        --color-correct: var(--green);
+        --color-absent: var(--color-tone-2);
+        --tile-text-color: var(--color-tone-8);
+        /*Cor do Número Teclado*/--key-text-color: var(--color-tone-1);
+        /*Botão Compartilhar*/--key-evaluated-text-color: var(--color-tone-16);
+        --key-bg: var(--color-tone-4);
+        --key-bg-present: var(--color-present);
+        --key-bg-correct: var(--color-correct);
+        --key-bg-absent: var(--color-absent);
+        --modal-content-bg: var(--color-tone-7);
+      }
+      .nightmode {
+        --color-present: var(--darkendYellow);
+        --color-switch: var(--switch);
+        --color-correct: var(--darkendGreen);
+        --color-absent: var(--color-tone-2);
+        --tile-text-color: var(--color-tone-8);
+        /*Cor do Número Teclado*/--key-text-color: var(--color-tone-1);
+        /*Botão Compartilhar*/--key-evaluated-text-color: var(--color-tone-16);
+        --key-bg: var(--color-tone-4);
+        --key-bg-present: var(--color-present);
+        --key-bg-correct: var(--color-correct);
+        --key-bg-absent: var(--color-absent);
+        --modal-content-bg: var(--color-tone-7);
+      }
+      .colorblind {
+        --color-correct: var(--orange);
+        --color-switch: var(--switch);
+        --color-present: var(--blue);
+        --tile-text-color: var(--white);
+        --key-bg-present: var(--color-present);
+        --key-bg-correct: var(--color-correct);
+        --key-bg-absent: var(--color-absent);
+      }
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        background-color: var(--color-background);
+        margin: 0;
+        padding: 0;
+        /* Prevent scrollbar appearing on page transition */
+        overflow-y: hidden;
+      }
+    </style>
+  </head>
+  <!-- Java Script OFF message -->
+  <body><noscript>Você precisa ativar o JavaScript para jogar o LockPass!</noscript><div id="root"></div></body>
+  
+  <body>
+    <script async="" src="../gtag/js?id=G-9J40ZM4GVG"></script>
+    <script>
+      (function () {
+        // Defining the hash before the main bundle allows the bundle access window.hash
+        window.wordle = window.wordle || {};
+        window.wordle.hash = 'lp230e27';
+      })();
+    </script>
+    <script src="lockpass.xyz/main.lp230e27.js"></script>
+    <game-app></game-app>
+  </body>
+</html>
